@@ -66,11 +66,42 @@ blockquote {
 
 }
 
-@media only screen and (mind-width: 38em) {
+@media only screen and (min-width: 38em) {
 
   html {
     font-size: 110%;
     line-height: 1.4;
+  }
+
+  article {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: .5em;
+  }
+
+  blockquote {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
+@media only screen and (min-width: 60em) {
+
+  article {
+    margin-top: 1.2rem;
+  }
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
   }
 
 }
