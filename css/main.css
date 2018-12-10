@@ -26,7 +26,7 @@ body {
 
 article {
   max-width: 43em;
-  margin: 1rem;
+  margin: 0;
   padding: 0;
 }
 
@@ -46,6 +46,7 @@ article ol {
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1.3rem;
 }
 
 article header p {
@@ -55,16 +56,35 @@ article header p {
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-bottom: 1.3rem;
 }
 
 blockquote {
+  margin: 0;
+  padding: 0;
   max-width: 24em;
   color: #555;
   font-size: 1.125rem;
+  margin-bottom: 1.3rem;
 }
 
 .quote {
   color: #999;
+  max-width: 43%;
+}
+
+h1 {
+  margin: 0;
+  padding-top: .3rem;
+}
+
+header p {
+  margin-top: 0;
+}
+
+ol {
+  padding: 0;
+  margin-bottom: 1.3rem;
 }
 
 @media only screen and (min-width: 25em) {
